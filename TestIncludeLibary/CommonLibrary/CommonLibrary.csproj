@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestIncludeLibary\IncludeLibary.csproj" />
+    <Reference Include="IncludeLibary">
+      <HintPath>..\TestIncludeLibary\bin\Debug\netstandard2.0\IncludeLibary.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
